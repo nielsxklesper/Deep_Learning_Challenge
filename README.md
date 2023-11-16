@@ -1,7 +1,10 @@
 # Deep Learning Challenge
 
+A significant challenge in the field of medical diagnostics involves the accurate classification of chest X-ray images into multiple categories: viral pneumonia, bacterial pneumonia, COVID-19, and healthy cases. Factors such as distinct patterns associated with different respiratory conditions, unforeseen variations in image quality, or even the inherent complexity of the diseases in question can contribute to the intricacies of accurate classification. While providing healthcare professionals with the flexibility to interpret X-ray images manually is valuable, there is a growing need for automated solutions to streamline and enhance the diagnostic process. This necessitates the application of advanced Computer Vision techniques and deep learning algorithms. The goal is not only to understand the distinctive features associated with each condition but also to predict and classify chest X-ray images accurately.
+
+Implementing a deep Learning-based solution for multiclass classification in this medical context becomes crucial. The ability to discern between viral pneumonia, bacterial pneumonia, COVID-19, and healthy cases through automated image analysis can significantly aid healthcare practitioners in their diagnostic efforts. 
+
 ## Task description
-The assignment involves a popular topic in computer vision, the prediction of pneumonia and COVID-19.
 
 Image classification is one of the most studied tasks in computer vision. The milestone paper, [AlexNet](https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf), proposed a CNN architecture with ReLU activation function and dropout layers to achieve accurate image classification results on ImageNet classification challenge. For the assignment, you will be using the COVID-19 X-ray dataset.
 After downloading and preparing the datasets, your assignment is to:
